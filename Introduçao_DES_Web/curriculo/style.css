@@ -1,0 +1,98 @@
+body{
+    width:80%;
+    margin: 0 auto;
+}
+.titulo{
+    font-size: 15px;
+     color:black;
+     text-align: center;
+     background-color: lime;
+     margin: 30px;
+     height: 35px;
+     border-radius: 10px;
+     font-family:ariel, helvetica, sans-serif;
+}
+
+.dados{
+    FONT-SIZE: 15px;
+    color: green;
+    margin-left:0cm;
+    white-space: nowrap;   
+}
+k{
+margin-left:6cm;  
+}
+.img{
+    border-radius: 80%;
+    text-align:left;
+    border: 3px solid rgb(25,25,25)     
+}
+h2{
+    text-align: initial;
+    height: 15px;
+    column-span:all;
+}
+HR{
+    color: lawngreen;
+    height: 0px;
+    width: 80%;
+    border:solid
+}
+.obj{
+font-size: 16px;
+text-align: initial;
+
+}
+h3{
+    text-align: initial;
+    font-size: 20px;
+}
+.for{
+    text-align: initial;
+}
+
+.A{
+    color: black;
+
+}
+
+.colunas{
+    width:550px ;
+    float: left;
+    height:30px ;
+}
+
+.direita{
+    float:left ;
+    text-align: justify;
+    width: 500px;
+    height: 800px;
+    
+}
+
+.esquerda{
+float:right;
+text-align: justify;
+width: 500px;
+height: 400px;
+
+
+}
+
+.bbr{
+font-size:20px ;
+
+}
+
+.ttr{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
