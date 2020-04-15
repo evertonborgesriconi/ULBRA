@@ -1,0 +1,133 @@
+body{
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 1000px;
+  
+}
+
+header{
+color: orangered;
+text-align: center;
+margin-top: -40px;
+background-image: linear-gradient(90deg, #242424, #575656);
+font-size: 30px;
+height: 100px;
+
+
+
+}
+
+section{
+    width: 650px;
+    margin: 1px solid black;
+    border: 1px solid black;
+    
+   
+}
+section img{
+    float: right;
+    width: 240px;
+    height: 120px;
+    margin-right: 5px;
+    
+}
+ 
+section p{
+  color: red;
+}
+
+anside{
+  float: right;
+  margin-bottom: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 1px solid black;
+  border-top: 1px solid black;
+  width: 347px;
+  height: 624px;
+  margin-top:-625px ;
+  margin-bottom: 625px;
+ 
+
+}
+anside img{
+  width: 110px;
+  height: 110px;
+  float: right;
+}
+anside p{
+  color: green;
+}
+anside h2{
+  font-size: 20px;
+}
+.imgmg{
+  margin-top:10px ;
+  margin-bottom: -10px;
+}
+
+.radius{
+  border-radius: 50%;
+  margin-left: -7px;
+  margin-right: 7px;
+}
+
+footer{
+  width: 1000px;
+  height: 100px;
+  margin: 1px solid black;
+  border: 1px solid black;
+  background-image: linear-gradient(90deg, #242424, #575656);
+  
+  
+  
+}
+
+footer h2 {
+  float: right;
+  margin-left: 160px;
+  margin-right: -160px;
+}
+
+footer img{
+  width: 60px;
+  height: 30px;
+  float: right;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  margin-left: 160px;
+  margin-right: -160px;
+}
+footer p{
+ float:right;
+ padding-left: 30px;
+ padding-right: 30px;
+ margin-left: 150px;
+ margin-right: -150px;
+ margin-top: -20px;
+ margin-bottom: 20px ;
+ font-weight: bolder;
+
+
+}
+footer h1{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: orangered;
+}
+.imgwt{
+  width: 30px;
+  height: 30px;
+  margin-left: 410px;
+  margin-right: -410px;
+  margin-top:30px ;
+  margin-bottom: -30px;
+  
+
+}
+
+.pozi{
+  margin-left: 390px;
+  margin-right: -390px;
+  margin-top:30px ;
+  margin-bottom: -30px;
+}
