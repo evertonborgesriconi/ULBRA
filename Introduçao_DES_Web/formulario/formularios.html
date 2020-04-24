@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" tipe="text/css" href="style.css">
+   
+    <title>Formularios</title>
+</head>
+
+<body>
+    <article>
+        <fieldset>
+            <h1>Dados Pessoais:</h1>
+            <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+                <label for="nome">Nome:</label>
+                    <input type="text" name="nome">
+                <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome"><br><br>
+                <label for="nascimento">Nascimento:</label>
+                    <input type="date" name="nescimento"><br><br>
+                <label for="RG">RG:</label>
+                    <input type="number" name="rg"><br><br>
+                <label for="CPF">CPF:</label>
+                    <input type="number" name="cpf"><br><br>
+                    
+            </form>
+        </fieldset>
+    </article>
+
+     <br><br>
+
+    <article>
+        <fieldset>
+            <h1>Dados de Indereço:</h1>
+            <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+                <label for="Rua">Rua:</label>
+                    <input type="text" name="rua">
+                <label for="Numero">Numero:</label>
+                    <input type="number" name="numero"><br><br>
+                <label for="Bairro">Bairro:</label>
+                    <input type="text" name="bairro"><br><br>
+                <label type="estado">Estado:</label>
+                     <select name="estados-brasil">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select><br><br>
+                <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade"><br><br>
+                <label for="cep">CEP:</label>
+                    <input type="number" name="cep"><br><br>
+                    
+       
+            </form>
+        </fieldset>
+    </article>
+    <br><br>
+    <article>
+        <fieldset>
+            <h1>Dados de Login:</h1>
+                <form action="http://vinicius.pro.br/idw/receiveForm.php" method="POST">
+                    <label for="email">Email:</label>
+                        <input type="text"><br><br>
+                    <label for="Imagem de Perfil:">Imagem de Perfil:</label>
+                        <input type="file" name="imgperfil"><br><br>
+                    <label for="username">Login de Usuario:</label>
+                        <input type="text" nome="username"><br><br>
+                    <label for="senha">Senha:</label>
+                        <input type="password" name="senha"><br><br>
+                    <label for="senha"> Confirme Senha:</label>
+                        <input type="password" name="confsenha"><br><br>
+                    
+                   
+        </fieldset>
+                                <br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                </form> 
+    </article>
+
+    
+</body>
+</html>
