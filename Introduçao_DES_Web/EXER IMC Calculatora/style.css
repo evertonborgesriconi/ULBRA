@@ -1,0 +1,32 @@
+body{
+    float: center;
+    text-align: center;
+    width: 600px;
+}
+fieldset{
+    width: 500px;
+    text-align: center;
+    float: center;
+}
+
+form fieldset {
+    margin: 10px auto 10px auto;
+    width: 40%;
+    border: solid black 1px;
+    padding: 3%;
+ }
+ 
+ form legend {
+    padding: 6px;
+    margin: 10px;
+    border: solid black 1px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #b61818;
+ }
+ form input {
+    width: 100%;
+    border: solid #ccc 1px;
+    font-size: 11px;
+    margin-bottom: 10px;
+ }
