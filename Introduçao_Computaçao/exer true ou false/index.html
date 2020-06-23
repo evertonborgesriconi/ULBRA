@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="h-75">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdadeiro ou Falso</title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body class="container h-100 position-relative">
+    <form onsubmit="return calc()" class="row justify-content-center flex-column h-100">
+        <div class="col-md-4 m-auto h-100">
+            <div class="d-flex justify-content-center">
+                <label for="valueOneRadioOne">
+                    <input type="radio" name="valueOne" id="valueOneRadioOne" checked>
+                    True or 1
+                </label>
+                <label for="valueOneRadioTwo">
+                    <input type="radio" name="valueOne" id="valueOneRadioTwo">
+                    False or 0
+                </label>
+            </div>
+            
+                <select  id="select">
+                    <option value="not">NOT</option>
+                    <option value="and">AND</option>
+                    <option value="or">OR</option>
+                    <option value="xor">XOR</option>
+                </select>
+            
+            <div>
+                <label for="valueTwoRadioOne" >
+                    <input type="radio" name="valueTwo" id="valueTwoRadioOne" checked>
+                    True or 1
+                </label>
+                <label for="valueTwoRadioTwo">
+                    <input type="radio" name="valueTwo" id="valueTwoRadioTwo">
+                    False or 0
+                </label>
+            </div>
+            <button >Calculate</button>
+
+            <p id="result">result</p>
+        </div>
+    </form>
+
+   
+</body>
+
+</html>
