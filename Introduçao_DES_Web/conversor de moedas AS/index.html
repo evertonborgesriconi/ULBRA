@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertedor de moedas</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+   
+         <header class="container-fluid">
+            <h1>Conversão de real para outras moedas</h1>
+        </header>
+        
+        <aside><br>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm">
+                    <img src="eua.png">
+                     DOLAR:$5.48 
+                  </div>
+                  <div class="col-sm">
+                    <img src="euro.svg">
+                    EURO:$6.10
+                  </div>
+                  <div class="col-sm">
+                    <img src="japao.jpg">
+                    IENE:$0.050
+                  </div>
+                  <div class="col-sm">
+                    <img src="bitcoin.jpg">
+                    BITCOIN:$49,619.48
+                  </div>
+                  <div class="col-sm">
+                    <img src="ouro.jpg">
+                    OURO:$310.18g
+                  </div>
+                </div>
+            </div>
+            <br>
+            
+        </aside>
+        <br>
+        <section class="container-fluid">
+            <form>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <label>Valor a ser convertido em reais:</label>		
+                    </div>
+                    <div class="col-4">
+                        <label id="text1"; style="text-align: center;">Converter para: </label>
+                    </div>      
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <input type="text" id="text2" /> 
+                    </div>
+                    <div class="col-4">
+                        <select id="opções">
+                            <option value="1">Dólar Americano(USD)</option>
+                            <option value="2">Dólar Canadense(CAD)</option>
+                            <option value="3">Dólar Australiano(AUD)</option>
+                            <option value="4">Euro(EUR)</option>
+                            <option value="5">Libra Esterlina(£)</option>
+                            <option value="6">Iene(JPY)</option>
+                            <option value="7">Peso Argentino(ARS)</option>
+                            <option value="8">Peso Chileno(CLP)</option>
+                            <option value="9">Peso Uruguaio(UYU)</option>
+                            <option value="10">Bitcoin</option>
+                            <option value="11">Ouro</option>						
+                        </select><br />     
+                    </div>
+                </div>        
+                    <br>
+                <div class="container-fluid">
+                    <div class="centralizaçao">
+                        <input type="button" value="Converter" class="btn2" onClick="conversao()" />
+                        <input type="reset" value="Limpar" class="btn2"> 
+                    </div>
+                        <br>
+                    <div class="centralizaçaox">                    
+                        <label id="Valor Convertido:"; style="font-size: 30px;">$</label>
+                        <span id="valorFinal"></span>
+                    </div>
+
+                    <ul class="centralizaçao">				
+                        <li>Data da cotação: 29/06/2020</li>
+                    </ul>
+                </div> 
+                
+            </form>      
+        </section>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="dark">Não faz muito tempo que as pessoas visitavam as casas de câmbio para verificar a cotação de moedas internacionais. O que demandava uma série de custos com transporte, logística, além do tempo.</p>
+                        <p>Com o avanço da internet, no entanto, se tornou possível fazer essa conversão online. Sem sair de casa ou em qualquer lugar do mundo.</p>
+                        <p>As plataformas de conversão na internet trouxeram praticidade ao processo. Em poucos cliques, você tem acesso a cotação de diferentes moedas.</p>
+                        <p>Ou seja, alia material de segurança em um processo rápido e virtual.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Para usar é bem simples: basta colocar o valor em real(Brasileiro) que deseja converter, o país de destino. Pronto, em poucos segundos, você terá a conversão feita.</p>
+                        <p>Vale destacar que o cálculo tem caráter apenas informativo e não substitui as disposições da norma cambial brasileira para casos específicos de conversão.</p>
+                        <p>Para quem vai viajar ou realizar transações financeiras em outras moedas, a dica é verificar a cotação a cada dia. Isso porque os valores apresentam variações.</p>
+                    </div>
+                </div>
+            </div>
+                
+        </article>
+        <footer style="background-color:linear-gradient(90deg, #242424, #575656);color: white;">
+            <div class="footer-copyright text-center py-3">O cálculo efetuado tem caráter informativo e não substitui as disposições da norma cambial brasileira.
+              <a href="https://mdbootstrap.com/"></c>
+          </footer>
+</body>
+</html>

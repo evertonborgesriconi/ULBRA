@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(90deg, #242424, #575656);
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+aside{
+    
+    color: white;
+    background-color: rgb(35, 33, 36);
+  
+}
+aside img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+section{
+    color:white;
+    width: 60%;
+   
+}
+section input{
+       
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background:rgb(35, 33, 36); 
+    border:1px solid #000000;
+    width:240px
+    
+    
+    
+} 
+section option{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    background: white; 
+    border:1px solid #000000;
+    padding-left: 100px
+
+}
+section select{
+    width: 240px;
+    background: rgb(35, 33, 36); 
+    border:1px solid #000000;
+}
+section label{
+    font-size: 20px;
+}
+.centralizaçao{
+    float: center;
+    margin-left: 400px;
+    margin-right: -400px;
+}
+.centralizaçaox{
+    float: center;
+    margin-left: 580px;
+    margin-right: -580px;
+    font-size: 30px;
+}
+article{
+    color: black;
+}
