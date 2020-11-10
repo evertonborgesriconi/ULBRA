@@ -1,0 +1,12 @@
+body{
+    font: auto 0;
+}
+header{
+    text-align: center; 
+}
+nav{
+    text-align: center;
+}
+footer{
+    background-color: rgb(228, 228, 228);
+}

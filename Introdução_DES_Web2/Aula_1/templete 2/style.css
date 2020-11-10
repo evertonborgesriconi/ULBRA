@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #a5a7aa;
+    height: 100px;
+}
+
+header a{
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+    font-size: 25px;
+}
+section{
+    text-align: center;
+    background-color:rgb(30, 160, 110);
+    color:wheat;
+}
+section img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+nav {
+    text-align: center;
+    background-color: rgb(61, 60, 60);
+    color: wheat;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+}
+article {
+    text-align: center;
+}
+article img{
+width: 300px;
+height: 300px;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    font-size: 25px;
+}
