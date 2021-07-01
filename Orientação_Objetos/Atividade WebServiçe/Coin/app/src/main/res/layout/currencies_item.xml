@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+    <TextView
+        android:id="@+id/txtMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="3"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Bitcoin" />
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_weight="4"
+        android:padding="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+
+            android:id="@+id/txtVenda"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="VENDA R$ 37.000"/>
+        <TextView
+            android:id="@+id/txtCompra"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=" R$36.0000 COMPRA"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtVariacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_weight="2"
+        android:padding="4dp"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+        tools:text="21%" />
+
+</LinearLayout>
