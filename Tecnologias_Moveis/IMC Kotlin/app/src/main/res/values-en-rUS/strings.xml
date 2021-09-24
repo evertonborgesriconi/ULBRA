@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMCKotlin</string>
+    <string name="app_peso">Enter the weight in kg:</string>
+    <string name="app_altura">Enter the height in meters:</string>
+    <string name="app_nome_pesssoa">Type your name:</string>
+    <string name="app_calcular">calculate</string>
+    <string name="app_mas">masculine</string>
+    <string name="app_fen">feminine</string>
+    <string name="app_text1">Very underweight.</string>
+    <string name="app_text2">Under weight.</string>
+    <string name="app_text3">Normal weight.</string>
+    <string name="app_text4">Overweight.</string>
+    <string name="app_text5">Obesity I.</string>
+    <string name="app_text6">Obesity II (severe).</string>
+    <string name="app_text7">Obesity III (morbid).</string>
+    <string name="app_Mpeso">write your weight here</string>
+    <string name="app_Maltura">write your height here</string>
+    <string name="app_Mnome">write your name here</string>
+    <string name="app_Mcal">Aki selects the male gender</string>
+    <string name="app_Mmas">Here click to calculate the BMI</string>
+    <string name="app_Mfen">aki selects the female</string>
+    <string name="app_titulo">Calculation of BMI</string>
+</resources>

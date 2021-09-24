@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_titulo">Cálculo do IMC</string>
+    <string name="app_peso">Digite o peso em Kg:</string>
+    <string name="app_altura">Digite a altura em metros:</string>
+    <string name="app_nome_pesssoa">Digite seu nome:</string>
+    <string name="app_calcular">calcular</string>
+    <string name="app_mas">masculino</string>
+    <string name="app_fen">feminino</string>
+
+    <string name="app_name">IMCKotlin</string>
+    <string name="app_text1">Muito abaixo do peso.</string>
+    <string name="app_text2">Abaixo do peso.</string>
+    <string name="app_text3">Peso normal.</string>
+    <string name="app_text4">Acima do peso.</string>
+    <string name="app_text5">Obesidade I.</string>
+    <string name="app_text6">Obesidade II(severa).</string>
+    <string name="app_text7">Obesidade III(mórbida).</string>
+
+
+    //contentDescricao
+    <string name="app_Mpeso">Escreva seu peso aki</string>
+    <string name="app_Maltura">Escreva sua altura aki</string>
+    <string name="app_Mnome">Escreva seu nome aki</string>
+    <string name="app_Mcal">Aki seleciona o sexo masculino</string>
+    <string name="app_Mmas">Aki click para calcular o IMC</string>
+    <string name="app_Mfen">Aki seleciona o sexo feminino</string>
+
+
+
+
+</resources>
